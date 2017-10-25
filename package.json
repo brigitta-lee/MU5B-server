@@ -1,0 +1,14 @@
+{
+  "name": "mu5b-server",
+  "version": "1.0.0",
+  "description": "server for access to Amazon Product Advertising API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Brigitta Lee",
+  "license": "ISC",
+  "engines": {
+    "node": "8.7.0"
+  },
+}
