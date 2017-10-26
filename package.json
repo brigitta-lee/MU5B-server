@@ -4,11 +4,24 @@
   "description": "server for access to Amazon Product Advertising API",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "Brigitta Lee",
   "license": "ISC",
   "engines": {
     "node": "8.7.0"
   },
+  "dependencies": {
+    "amz-products": "0.0.3",
+    "apac": "^3.0.2",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
 }
